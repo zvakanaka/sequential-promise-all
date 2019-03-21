@@ -1,5 +1,6 @@
 /**
  * Call a promise n times, waiting for each promise to resolve before calling it again.
+ * THANK YOU for idea: Jason Suttles https://stackoverflow.com/a/43377621/4151489
  * @param  {function} promise        function that returns a Promise (will be called n times after previous one finishes)
  * @param  {Array}    args           arguments to pass to promise
  * @param  {Number}   n              number of times to call promise
