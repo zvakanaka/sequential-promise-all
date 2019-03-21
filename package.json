@@ -1,0 +1,29 @@
+{
+  "name": "sequential-promise-all",
+  "version": "1.0.0",
+  "description": "Promise.all with super powers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/sequentialPromiseAll.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvakanaka/sequential-promise-all.git"
+  },
+  "keywords": [
+    "sequential",
+    "promise",
+    "all",
+    "loop",
+    "sequence"
+  ],
+  "author": "Adam Quinton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zvakanaka/sequential-promise-all/issues"
+  },
+  "homepage": "https://github.com/zvakanaka/sequential-promise-all#readme"
+}
