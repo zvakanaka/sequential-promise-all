@@ -3,7 +3,7 @@ Modify inputs of next call to promise based on output of previous
 ### Progress bar
 ```js
 const sequentialPromiseAll = require('sequential-promise-all');
-const barChart = require('bar-chart');
+const barChart = require('bar-charts');
 const timeout = (ms) => new Promise((res) => setTimeout(res, ms));
 
 (async () => {
